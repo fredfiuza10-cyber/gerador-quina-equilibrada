@@ -17,9 +17,10 @@ O script sorteia 5 números entre 1 e 80 e repete o sorteio até que a combinaç
 | Filtro | Regra |
 |---|---|
 | Pares e ímpares | de 2 a 3 números pares |
-| Baixos e altos | de 2 a 3 números baixos (1 a 40); os demais são altos (41 a 80) |
+| Quentes e frios | de 2 a 3 números baixos (1 a 40); os demais são altos (41 a 80) |
+| Finais iguais | 2 números com finais iguais |
 
-Ao final, ele imprime a aposta gerada e um pequeno diagnóstico (quantidade de pares, ímpares, baixos e altos).
+Ao final, ele imprime a aposta gerada e um pequeno diagnóstico (quantidade de pares, ímpares, números quentes e frios), além de números com finais iguais, pois é um padrão dos sorteios.
 
 **Sobre o histórico:** o script lê e valida o arquivo `quina_historico.txt` (e calcula a frequência de cada dezena), mas, nesta primeira versão, esses dados **não influenciam** a aposta gerada. Eles servem como base para as próximas etapas (veja o roteiro abaixo).
 
