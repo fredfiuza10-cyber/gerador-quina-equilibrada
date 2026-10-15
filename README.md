@@ -55,13 +55,13 @@ Ao final, ele imprime a aposta gerada e um pequeno diagnóstico (quantidade de p
 ### Exemplo de saída (ilustrativo)
 
 ```text
-JOGO GERADO: [7, 23, 44, 61, 78]
+JOGO GERADO: [7, 23, 44, 61, 77]
 
 Diagnóstico do jogo:
 Pares: 2
 Ímpares: 3
-Baixos (1–40): 2
-Altos (41–80): 3
+Frios (1–40): 2
+Quentes (41–80): 3
 ```
 
 ## Estrutura do repositório
