@@ -18,7 +18,7 @@ O script sorteia 5 números entre 1 e 80 e repete o sorteio até que a combinaç
 |---|---|
 | Pares e ímpares | de 2 a 3 números pares |
 | Quentes e frios | de 2 a 3 números baixos (1 a 40); os demais são altos (41 a 80) |
-| Finais iguais | 2 números com finais iguais |
+| Final igual | 2 números com finais iguais |
 
 Ao final, ele imprime a aposta gerada e um pequeno diagnóstico (quantidade de pares, ímpares, números quentes e frios), além de números com finais iguais, pois é um padrão dos sorteios.
 
